@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="left-0 w-full z-10 top-0 pt-6 lg:pt-16 px-2 md:px-6 lg:px-6 bg-transparent border-2 border-red-700">
+    <div className="left-0 w-full z-10 top-0 pt-6 lg:pt-16 px-4 md:px-6 lg:px-6 bg-transparent">
       <div className="container max-w-[1420px] mx-auto">
         <nav className="flex items-center justify-between">
           <div className="flex items-center justify-between w-full px-3 lg:px-0 lg:w-auto">

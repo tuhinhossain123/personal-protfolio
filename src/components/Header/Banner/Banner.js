@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="pt-20 lg:pt-[135px] px-2 md:px-6 lg:px-6 border-2 border-red-500">
+    <div className="pt-20 lg:pt-[135px] px-4 md:px-6 lg:px-6">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-[148px]">
-        <div className="px-16 md:px-8 lg:px-0">
+        <div className="px-4 md:px-8 lg:px-0">
           <h4 className=" text-xl md:text-2xl lg:text-2xl font-semibold pb-1">Hi I am </h4>
           <h3 className="text-[#FD6F00] text-2xl md:text-3xl lg:text-[32px] font-semibold line-clamp-3 mb-0">
             Muhammad Umair{" "}
@@ -32,11 +32,12 @@ const Banner = () => {
             </button>
           </div>
         </div>
+        {/* images here */}
         <div>
           <div>
             <div className="relative">
               <Image src={img} alt="Logo" width={538} height={617} />
-              <div className="absolute top-7 md:top-20 lg:top-20 md:left-[5rem] lg:left-16">
+              <div className="absolute top-7 md:top-20 lg:top-20 left-1 md:left-[5rem] lg:left-16">
               <Image src={img2} alt="Logo" width={374} height={83} />
               </div>
             </div>
