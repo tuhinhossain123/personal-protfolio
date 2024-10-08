@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-[000000]">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1E1E1E] text-white `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1E1E1E] text-white`}
       >
         <div className="max-w-[1420px] mx-auto">
           <Navbar></Navbar>

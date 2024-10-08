@@ -20,11 +20,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 w-full z-10 top-0 pt-6 lg:pt-16 px-4 bg-transparent">
+    <div className="left-0 w-full z-10 top-0 pt-6 lg:pt-16 px-2 md:px-6 lg:px-6 bg-transparent border-2 border-red-700">
       <div className="container max-w-[1420px] mx-auto">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center justify-between px-2 md:pax-6 lg:px-8 w-full lg:w-auto">
+          <div className="flex items-center justify-between w-full px-3 lg:px-0 lg:w-auto">
             <div className="flex items-center gap-5">
+              {/* logo and name here */}
               <div>
                 <Image src={img} alt="Logo" width={67} height={67} />
               </div>
@@ -36,20 +37,24 @@ const Navbar = () => {
               </div>
             </div>
             <div className="lg:hidden">
-              <button onClick={handleMenu} className="text-white text-5xl md:text-6xl">
+              <button
+                onClick={handleMenu}
+                className="text-white text-5xl md:text-6xl"
+              >
                 {menu ? "" : <IoMenuOutline />}
               </button>
             </div>
           </div>
 
           <div className="flex items-center gap-[38px]">
+            {/* Nav All Link Here */}
             <div>
               <ul
                 className={`lg:static fixed bg-[#1E1E1E] lg:bg-transparent flex flex-col lg:flex-row items-center space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 pt-6 lg:pt-0 top-0 right-0 lg:right-auto w-full md:w-full lg:w-auto h-screen lg:h-auto transition-all duration-500 ease-in-out ${
                   menu ? "right-0" : "-right-full"
                 }`}
               >
-                <div className="lg:hidden flex justify-end w-full pt-5 pr-5">
+                <div className="lg:hidden flex justify-end w-full pt-5 pr-14">
                   <RxCross2
                     onClick={handleMenu}
                     className="text-5xl md:text-6xl cursor-pointer"
@@ -135,6 +140,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
+
+            {/* download CV Here */}
             <div className="hidden lg:block">
               <button className="bg-primary px-[18px] py-4 rounded-md text-xl font-normal">
                 Download CV
