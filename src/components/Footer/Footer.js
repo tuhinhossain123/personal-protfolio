@@ -1,160 +1,123 @@
 "use client";
-import { IoMenuOutline } from "react-icons/io5";
-import { RxCross2 } from "react-icons/rx";
-import { useState } from "react";
-import { Link } from "react-scroll";
 import Image from "next/image";
-import img from "../../../app/images/Subtract.png";
+import img from "../../app/images/Subtract.png";
+import Link from "next/link";
+import { MdOutlineFacebook } from "react-icons/md";
+import { FaTwitter } from "react-icons/fa";
+import { RxInstagramLogo } from "react-icons/rx";
+import { FaLinkedin } from "react-icons/fa";
 
-const Navbar = () => {
-  const [menu, setMenu] = useState(false);
-
-  // Handle menu toggle
-  const handleMenu = () => {
-    setMenu(!menu);
-  };
-
-  // Handle closing the menu after clicking a link
-  const handleLinkClick = () => {
-    setMenu(false);
-  };
-
+const Footer = () => {
   return (
-    <div className="left-0 w-full z-10 top-0 pt-6 lg:pt-16 px-2 md:px-6 lg:px-6 bg-transparent border-2 border-red-700">
-      <div className="container max-w-[1420px] mx-auto">
-        <nav className="flex items-center justify-between">
-          <div className="flex items-center justify-between w-full px-3 lg:px-0 lg:w-auto">
-            <div className="flex items-center gap-5">
-              {/* logo and name here */}
-              <div>
-                <Image src={img} alt="Logo" width={67} height={67} />
-                <div>
-                    <h2 className=""></h2>
-                </div>
-              </div>
-              <div className="hidden md:block">
-                <h2>
-                  <span className="text-5xl font-bold">M</span>
-                  <span className="text-5xl font-normal">umair</span>
-                </h2>
-              </div>
-            </div>
-            <div className="lg:hidden">
-              <button
-                onClick={handleMenu}
-                className="text-white text-5xl md:text-6xl"
-              >
-                {menu ? "" : <IoMenuOutline />}
-              </button>
-            </div>
+    <div className="mt-64">
+      <div>
+        <div className="cursor-pointer flex items-center justify-center gap-5">
+          <div>
+            <Image src={img} alt="Logo" width={67} height={67} />
           </div>
-
-          <div className="flex items-center gap-[38px]">
-            {/* Nav All Link Here */}
-            <div>
-              <ul
-                className={`lg:static fixed bg-[#1E1E1E] lg:bg-transparent flex flex-col lg:flex-row items-center space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 pt-6 lg:pt-0 top-0 right-0 lg:right-auto w-full md:w-full lg:w-auto h-screen lg:h-auto transition-all duration-500 ease-in-out ${
-                  menu ? "right-0" : "-right-full"
-                }`}
-              >
-                <div className="lg:hidden flex justify-end w-full pt-5 pr-10">
-                  <RxCross2
-                    onClick={handleMenu}
-                    className="text-5xl md:text-6xl cursor-pointer"
-                  />
-                </div>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    About Me
-                  </Link>
-                </li>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    Services
-                  </Link>
-                </li>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    Projects
-                  </Link>
-                </li>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    Testimonials
-                  </Link>
-                </li>
-                <li className="mb-8 lg:mb-0">
-                  <Link
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
-                    onClick={handleLinkClick}
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* download CV Here */}
-            <div className="hidden lg:block">
-              <button className="bg-primary px-[18px] py-4 rounded-md text-xl font-normal">
-                Download CV
-              </button>
-            </div>
+          <div className="hidden md:block">
+            <h2>
+              <span className="text-5xl font-bold">M</span>
+              <span className="text-5xl font-normal">umair</span>
+            </h2>
           </div>
-        </nav>
+        </div>
+        <div className=" pt-20">
+          <ul className="flex items-center justify-center gap-5">
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                About Me
+              </Link>
+            </li>
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                Services
+              </Link>
+            </li>
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                Testimonials
+              </Link>
+            </li>
+            <li className="mb-8 lg:mb-0">
+              <Link
+                href="/"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="flex justify-center items-center gap-6 md:gap-16 lg:gap-6 pt-20">
+          <Link href="">
+            <MdOutlineFacebook className="text-[32px] md:text-5xl lg:text-[32px]"></MdOutlineFacebook>
+          </Link>
+          <Link href="">
+            <FaTwitter className="text-[32px] md:text-5xl lg:text-[32px]"></FaTwitter>
+          </Link>
+          <Link href="">
+            <RxInstagramLogo className="text-[32px] md:text-5xl lg:text-[32px]"></RxInstagramLogo>
+          </Link>
+          <Link href="">
+            <FaLinkedin className="text-[32px] md:text-5xl lg:text-[32px]"></FaLinkedin>
+          </Link>
+        </div>
+        <div className="mt-16 bg-[#121212] ">
+          <h2 className="text-center py-7 text-xl">© 2023 <span className="text-primary font-bold">Mumair</span> All Rights Reserved , Inc.</h2>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Footer;
