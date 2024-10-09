@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="mt-64">
+    <div className="mt-64 w-[100%]">
       <div>
         <div className="cursor-pointer flex items-center justify-center gap-5">
           <div>

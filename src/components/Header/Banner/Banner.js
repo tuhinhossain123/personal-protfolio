@@ -44,7 +44,7 @@ const Banner = () => {
           <div>
             <div className="relative">
               <Image src={img} alt="Logo" width={538} height={617} />
-              <div className="absolute top-7 md:top-20 lg:top-20 left-1 md:left-[5rem] lg:left-16">
+              <div className="absolute top-[7%] md:top-[12%] lg:top-[12%] left-1 md:left-[13%] lg:left-[14%]">
                 <Image src={img2} alt="Logo" width={374} height={83} />
               </div>
             </div>

@@ -6,8 +6,8 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div className="mt-16 lg:mt-36  px-4 md:px-6 lg:px-6">
-      <h2 className="text-5xl lg:text-[66px] font-semibold text-center pb-5">Services</h2>
-      <p className="text-justify md:text-center text-xl">
+      <h2 className="text-5xl md:text-[66px] font-semibold lg:text-center pb-5">Services</h2>
+      <p className="text-left md:text-center text-xl">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus <br /> netus in. Aliquet donec morbi convallis pretium
       </p>
@@ -45,7 +45,7 @@ const Services = () => {
           </p>
         </div>
         <div className="bg-[#F8F8F8] pl-5 pt-14 pr-5 pb-3 rounded-lg">
-          <div className="h-[75px] w-[75px]">
+          <div className="h-[75px] w-[50px]">
             <Image
               src={img3}
               alt="Logo"
