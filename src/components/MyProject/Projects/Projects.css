@@ -1,0 +1,14 @@
+
+.menuItem {
+    margin-left: 20px;
+    margin-right: 1px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+.menuItem .selected{
+    background-color: red;
+    color: white;
+}

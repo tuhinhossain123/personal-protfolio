@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="pt-20 lg:pt-[135px] px-4 md:px-6 lg:px-6">
+    <div className="pt-16 lg:pt-[120px] px-4 md:px-6 lg:px-6">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-[148px]">
         <div className="px-4 md:px-8 lg:px-0">
           <h4 className=" text-xl md:text-2xl lg:text-2xl font-semibold pb-1">Hi I am </h4>
