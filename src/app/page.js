@@ -1,6 +1,7 @@
 import Banner from "@/components/Header/Banner/Banner";
 import MyProject from "@/components/MyProject/MyProject";
 import Services from "@/components/Services/Services";
+import Together from "@/components/Together/Together";
 
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <Services></Services>
-      <MyProject></MyProject>
+      {/* <MyProject></MyProject> */}
+      <Together></Together>
     </div>
   );
 }
