@@ -5,8 +5,8 @@ import Services from "@/components/Services/Services";
 export default function Home() {
   return (
     <div>
-      <Banner></Banner>
-      <Services></Services>
+      {/* <Banner></Banner> */}
+      {/* <Services></Services> */}
     </div>
   );
 }
