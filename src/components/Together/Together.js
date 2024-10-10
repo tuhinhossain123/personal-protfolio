@@ -1,6 +1,6 @@
 const Together = () => {
   return (
-    <div className="mt-12 lg:mt-36 px-4 md:px-6 lg:px-6">
+    <div className="mt-12 lg:mt-36 px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto">
       <div>
         <h2 className="text-5xl lg:text-[65px] font-poppins font-semibold text-center pb-10 lg:pb-4 -leading-4 lg:leading-0">
           Lets Design Together

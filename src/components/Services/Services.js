@@ -5,7 +5,7 @@ import img4 from "../../app/images/Group 42.png";
 import Image from "next/image";
 const Services = () => {
   return (
-    <div className="mt-16 lg:mt-36  px-4 md:px-6 lg:px-6">
+    <div className="mt-16 lg:mt-36  px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto">
       <h2 className="text-5xl md:text-[66px] font-semibold lg:text-center pb-5">Services</h2>
       <p className="text-left font-poppins font-normal md:text-center text-xl">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh

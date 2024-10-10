@@ -4,7 +4,7 @@ import img2 from "../../app/images/Rectangle 4.png";
 
 const AboutMe = () => {
   return (
-    <div className="mt-[69px] px-4 md:px-6 lg:px-6">
+    <div className="mt-[69px] px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto">
       <div className="flex flex-col lg:flex-row lg:gap-12">
         <div className="relative">
           <Image src={img} alt="Logo" width={681} height={407} />
