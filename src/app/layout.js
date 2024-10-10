@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import { Montserrat, Poppins } from "next/font/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,6 +14,15 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const montsrrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montsrrat",
+});
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+})
 
 export const metadata = {
   title: "Personal Protfolio",
@@ -23,9 +33,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-[000000]">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1E1E1E] text-white`}
+        className={`${montsrrat.variable} ${poppins.variable} antialiased bg-[#1E1E1E] text-white`}
       >
-        <div >
+        <div>
           <Navbar></Navbar>
           <div className="max-w-[1420px] mx-auto">{children}</div>
           <Footer></Footer>

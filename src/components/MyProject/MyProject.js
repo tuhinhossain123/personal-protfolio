@@ -41,7 +41,7 @@ const MyProject = () => {
         est risus <br /> lectus. Phasellus consequat urna tellus
       </p>
       <div>
-        <Tabs defaultIndex={0} onSelect={(index) => setTabIndex(index)}>
+        <Tabs defaultIndex={2} onSelect={(index) => setTabIndex(index)}>
           <div className="">
             <TabList className="flex items-center justify-center space-x-4 cursor-pointer text-[24px] font-normal text-[#000] pt-5 lg:pt-0">
               <Tab className={"menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl py-[10px] px-5"}>All</Tab>

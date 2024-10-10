@@ -2,7 +2,14 @@
 const nextConfig = {
     eslint: { ignoreDuringBuilds: true },
     images: {
-      domains: ["i.ibb.co", "images.domains", "lh3.googleusercontent.com"],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'i.ibb.co.com',
+          port: '',
+          pathname: '/**',  // Allows all paths from i.ibb.co
+        },
+      ],
     },
   };
   

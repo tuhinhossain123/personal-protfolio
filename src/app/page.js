@@ -12,8 +12,8 @@ export default function Home() {
       <Banner></Banner>
       <AboutMe></AboutMe>
       <Services></Services>
-      {/* <MyProject></MyProject> */}
-      <Testimonial></Testimonial>
+      <MyProject></MyProject>
+      {/* <Testimonial></Testimonial> */}
       <Together></Together>
     </div>
   );

@@ -16,7 +16,7 @@ const Navbar = () => {
           <div>
             <Image src={img} alt="Logo" width={67} height={67} />
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block font-poppins">
             <h2>
               <span className="text-5xl font-bold">M</span>
               <span className="text-5xl font-normal">umair</span>
