@@ -33,17 +33,17 @@ const MyProject = () => {
 
   return (
     <div className="mb-10 mt-[139px]">
-      <h2 className="text-5xl lg:text-[66px] font-semibold text-center pb-6">
+      <h2 className="text-5xl lg:text-[66px] font-poppins font-semibold text-center pb-6">
         My Projects
       </h2>
-      <p className="text-justify md:text-center text-xl pb-[3.7rem]">
+      <p className="text-justify md:text-center font-poppins font-normal text-xl pb-[3.7rem]">
         Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris
         est risus <br /> lectus. Phasellus consequat urna tellus
       </p>
       <div>
         <Tabs defaultIndex={2} onSelect={(index) => setTabIndex(index)}>
           <div className="">
-            <TabList className="flex items-center justify-center space-x-4 cursor-pointer text-[24px] font-normal text-[#000] pt-5 lg:pt-0">
+            <TabList className="flex items-center justify-center space-x-4 cursor-pointer text-[24px] font-poppins font-normal text-[#000] pt-5 lg:pt-0">
               <Tab className={"menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl py-[10px] px-5"}>All</Tab>
               <Tab className={"menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl py-[10px] px-5"}>UI/UX</Tab>
               <Tab className={"menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl py-[10px] px-5"}>Web Design</Tab>

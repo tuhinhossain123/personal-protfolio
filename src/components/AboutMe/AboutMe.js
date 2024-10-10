@@ -13,36 +13,36 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="pt-14">
-          <h2 className="text-5xl md:text-[65px] font-semibold pb-4">About Me </h2>
-          <p className="text-[22px] font-normal">
+          <h2 className="text-5xl md:text-[65px] font-poppins font-semibold pb-4">About Me </h2>
+          <p className="text-[22px] font-poppins font-normal">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
             nibh <br /> lectus netus in. Aliquet donec morbi convallis pretium.
             Turpis tempus pharetra
           </p>
           <div className="pt-4">
             <div className="relative">
-              <h className="text-2xl font-normal">UX</h>
+              <h className="text-2xl font-poppins font-normal">UX</h>
               <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
                 <h2 className="bg-primary h-3 w-[90%] rounded-l-xl  relative"></h2>
               </div>
               <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[8%]"></h2>
             </div>
             <div className="relative pt-6">
-              <h className="text-2xl font-normal">Website Design</h>
+              <h className="text-2xl font-poppins font-normal">Website Design</h>
               <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
                 <h2 className="bg-primary h-3 w-[80%] rounded-l-xl  relative"></h2>
               </div>
               <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[16%]"></h2>
             </div>
             <div className="relative pt-6">
-              <h className="text-2xl font-normal">App Design</h>
+              <h className="text-2xl font-poppins font-normal">App Design</h>
               <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
                 <h2 className="bg-primary h-3 w-[92%] rounded-l-xl  relative"></h2>
               </div>
               <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[4%]"></h2>
             </div>
             <div className="relative pt-6">
-              <h className="text-2xl font-normal">Graphic Desogn</h>
+              <h className="text-2xl font-poppins font-normal">Graphic Desogn</h>
               <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
                 <h2 className="bg-primary h-3 w-[90%] rounded-l-xl  relative"></h2>
               </div>

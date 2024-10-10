@@ -18,7 +18,7 @@ const Footer = () => {
               <Image src={img} alt="Logo" width={67} height={67} />
             </div>
             <div>
-              <h2>
+              <h2 className="font-montsrrat">
                 <span className="text-5xl font-bold">M</span>
                 <span className="text-5xl font-normal">umair</span>
               </h2>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   Home
                 </Link>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   About Me
                 </Link>
@@ -47,7 +47,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   Services
                 </Link>
@@ -55,7 +55,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   Projects
                 </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   Testimonials
                 </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   href="/"
-                  className="text-xl md:text-3xl lg:text-xl font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
+                  className="text-xl md:text-3xl lg:text-xl font-poppins font-normal hover:text-[#FD6F00] duration-500 cursor-pointer"
                 >
                   Contact
                 </Link>
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* footer bottom */}
         <div className="mt-16 bg-[#121212]">
-          <h2 className="text-center py-7 text-lg lg:text-xl text-white">
+          <h2 className="text-center py-7 font-poppins text-lg lg:text-xl text-white">
             © 2023 <span className="text-primary font-bold">Mumair</span> All
             Rights Reserved, Inc.
           </h2>

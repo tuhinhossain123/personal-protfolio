@@ -44,7 +44,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Home
               </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 About Me
               </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Services
               </Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Projects
               </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Testimonials
               </Link>
@@ -104,12 +104,12 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-xl md:text-3xl lg:text-xl font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
+                className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Contact
               </Link>
             </li>
-            <button className="bg-primary px-[18px] py-4 rounded-md text-xl font-normal">
+            <button className="bg-primary px-[18px] py-4 rounded-md text-xl font-poppins font-normal">
               Download CV
             </button>
           </ul>

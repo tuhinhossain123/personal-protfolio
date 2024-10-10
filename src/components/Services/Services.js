@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="mt-16 lg:mt-36  px-4 md:px-6 lg:px-6">
       <h2 className="text-5xl md:text-[66px] font-semibold lg:text-center pb-5">Services</h2>
-      <p className="text-left md:text-center text-xl">
+      <p className="text-left font-poppins font-normal md:text-center text-xl">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus <br /> netus in. Aliquet donec morbi convallis pretium
       </p>
@@ -22,8 +22,8 @@ const Services = () => {
               className="w-full h-full"
             />
           </div>
-          <h2 className="text-3xl font-semibold pt-6 text-black">UI/UX</h2>
-          <p className="text-xl font-normal pt-4 text-black">
+          <h2 className="text-3xl font-poppins font-semibold pt-6 text-black">UI/UX</h2>
+          <p className="text-xl font-poppins font-normal pt-4 text-black">
             Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam
             interdum
           </p>
@@ -38,8 +38,8 @@ const Services = () => {
               className="w-full h-full"
             />
           </div>
-          <h2 className="text-3xl font-semibold pt-6 text-black">Web Design </h2>
-          <p className="text-xl font-normal pt-4 text-black">
+          <h2 className="text-3xl font-poppins font-semibold pt-6 text-black">Web Design </h2>
+          <p className="text-xl font-poppins font-normal pt-4 text-black">
             Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam
             interdum
           </p>
@@ -54,8 +54,8 @@ const Services = () => {
               className="w-full h-full"
             />
           </div>
-          <h2 className="text-3xl font-semibold pt-6 text-black">App Design</h2>
-          <p className="text-xl font-normal pt-4 text-black">
+          <h2 className="text-3xl font-poppins font-semibold pt-6 text-black">App Design</h2>
+          <p className="text-xl font-poppins font-normal pt-4 text-black">
             Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam
             interdum
           </p>
@@ -70,8 +70,8 @@ const Services = () => {
               className="w-full h-full"
             />
           </div>
-          <h2 className="text-3xl font-semibold pt-6 text-black">Graphic Design </h2>
-          <p className="text-xl font-normal pt-4 text-black">
+          <h2 className="text-3xl font-poppins font-semibold pt-6 text-black">Graphic Design </h2>
+          <p className="text-xl font-poppins font-normal pt-4 text-black">
             Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam
             interdum
           </p>
