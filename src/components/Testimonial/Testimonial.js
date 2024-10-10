@@ -91,7 +91,7 @@ const Testimonial = () => {
                 <div className="absolute top-0 ">
                   <Image src={slide?.img2} alt="Logo" width={25} height={25} />
                 </div>
-                <div className="absolute right-[15%] bottom-[38%]">
+                <div className="absolute right-[15%] bottom-[35%]">
                   <Image src={slide?.img2} alt="Logo" width={25} height={25} />
                 </div>
               </div>

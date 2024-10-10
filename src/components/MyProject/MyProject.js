@@ -36,7 +36,7 @@ const MyProject = () => {
       <div>
         <Tabs defaultIndex={2} onSelect={(index) => setTabIndex(index)}>
           <div className="">
-            <TabList className="flex flex-col lg:flex-row items-center justify-center lg:space-x-4 space-y-5 cursor-pointer text-[24px] font-poppins font-normal text-[#000] pt-5 lg:pt-0">
+            <TabList className="flex flex-col lg:flex-row items-center justify-center lg:space-x-4 space-y-5 lg:space-y-0 cursor-pointer text-[24px] font-poppins font-normal text-[#000] pt-5 lg:pt-0">
               <Tab
                 className={
                   "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
