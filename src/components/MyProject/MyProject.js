@@ -25,13 +25,13 @@ const MyProject = () => {
   );
 
   return (
-    <div className="mb-10 mt-[139px] px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto">
-      <h2 className="text-5xl lg:text-[66px] font-poppins font-semibold text-center pb-6">
+    <div id="4" className="mt-16 lg:mt-[139px] px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto">
+      <h2 className="text-5xl md:text-[66px] font-poppins font-semibold lg:text-center pb-6">
         My Projects
       </h2>
-      <p className="text-justify md:text-center font-poppins font-normal text-xl pb-4 lg:pb-[3.7rem]">
+      <p className="text-justify lg:text-center font-poppins font-normal text-xl pb-4 lg:pb-[3.7rem]">
         Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris
-        est risus <br /> lectus. Phasellus consequat urna tellus
+        est risus lectus. Phasellus consequat urna tellus
       </p>
       <div>
         <Tabs defaultIndex={2} onSelect={(index) => setTabIndex(index)}>

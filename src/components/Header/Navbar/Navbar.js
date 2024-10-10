@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="max-w-[1420px] mx-auto top-0 z-10 bg-[#1E1E1E] left-0">
       <div className="md:flex items-center justify-between py-4  lg:py-[61px] px-7 md:px-10 lg:px-4">
-        <div className="cursor-pointer flex items-center gap-5">
+        <Link href="#2" className="cursor-pointer flex items-center gap-5">
           <div>
             <Image src={img} alt="Logo" width={67} height={67} />
           </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
               <span className="text-5xl font-normal">umair</span>
             </h2>
           </div>
-        </div>
+        </Link>
 
         <div
           onClick={() => setOpen(!open)}
@@ -39,7 +39,7 @@ const Navbar = () => {
           >
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#2"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -51,7 +51,7 @@ const Navbar = () => {
             </li>
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#1"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -63,10 +63,10 @@ const Navbar = () => {
             </li>
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#3"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={50}
                 duration={500}
                 className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#4"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -87,11 +87,11 @@ const Navbar = () => {
             </li>
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#5"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={300}
                 className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
                 Testimonials
@@ -99,7 +99,7 @@ const Navbar = () => {
             </li>
             <li className="mb-8 lg:mb-0">
               <Link
-                href="/"
+                href="#6"
                 spy={true}
                 smooth={true}
                 offset={-70}

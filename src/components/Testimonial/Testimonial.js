@@ -49,12 +49,12 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className="lg:mt-[139px] px-4 md:px-6 lg:px-6  overflow-hidden rounded-xl">
+    <div id="5" className=" mt-16 lg:mt-[139px] px-4 md:px-6 lg:px-6  overflow-hidden rounded-xl">
       <div className="pb-[72px]">
-        <h2 className="text-[64px] font-semibold text-center pb-4">
+        <h2 className="text-5xl md:text-[66px] font-poppins font-semibold lg:text-center  pb-4">
           Testimonials
         </h2>
-        <p className="text-xl fot-nt-normal md:text-center">
+        <p className="text-xl fot-nt-normal lg:text-center">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus <br /> netus in. Aliquet donec morbi convallis pretium
         </p>
@@ -91,7 +91,7 @@ const Testimonial = () => {
                 <div className="absolute top-0 ">
                   <Image src={slide?.img2} alt="Logo" width={25} height={25} />
                 </div>
-                <div className="absolute right-[15%] bottom-[35%]">
+                <div className="absolute right-[15%] bottom-14 md:bottom-10 lg:bottom-[35%]">
                   <Image src={slide?.img2} alt="Logo" width={25} height={25} />
                 </div>
               </div>
