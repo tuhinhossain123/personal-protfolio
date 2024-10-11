@@ -8,15 +8,15 @@ const AboutMe = () => {
       <div className="flex flex-col lg:flex-row lg:gap-12">
         <div className="relative">
           <Image src={img} alt="Logo" width={681} height={407} />
-          <div className="absolute top-[10%] md:top-[21%] lg:top-[20%] left-1 md:left-[21%] lg:left-[20%]">
+          <div className="absolute top-[10%] md:top-[21%] lg:top-[15%] left-1 md:left-[21%] lg:left-[18%]">
             <Image src={img2} alt="Logo" width={374} height={83} />
           </div>
         </div>
-        <div className="pt-14">
+        <div className="pt-14 w-full lg:w-1/2">
           <h2 className="text-5xl md:text-[65px] font-poppins font-semibold pb-4">About Me </h2>
           <p className="text-[22px] font-poppins font-normal">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-            nibh <br /> lectus netus in. Aliquet donec morbi convallis pretium.
+            nibh  lectus netus in. Aliquet donec morbi convallis pretium.
             Turpis tempus pharetra
           </p>
           <div className="pt-4">

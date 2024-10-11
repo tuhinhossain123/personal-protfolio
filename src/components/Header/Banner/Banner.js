@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div id="2" className="pt-16 lg:pt-[120px] px-4 md:px-6 lg:px-6">
       <div className="max-w-[1420px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-[148px]">
-        <div className="px-4 md:px-8 lg:px-0">
+        <div className="px-4 md:px-8 lg:px-0 w-full lg:w-1/2">
           <h4 className=" text-xl md:text-2xl lg:text-2xl font-poppins font-semibold pb-1">
             Hi I am{" "}
           </h4>
@@ -20,17 +20,15 @@ const Banner = () => {
           </h3>
           <h1 className="text-5xl md:text-7xl lg:text-[100px] font-poppins font-bold pt-3 lg:pt-0 lg:leading-[1]">
             UI & UX <br />
-            <span className="pl-[8rem] md:pl-[12rem] lg:pl-[15rem]">
+            <span className="pl-[5rem] md:pl-[12rem] lg:pl-[15rem]">
               Designer
             </span>{" "}
           </h1>
 
           <p className="text-[21px] font-poppins font-normal text-justify  lg:text-justify pt-[28px]">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-            nibh <br className="block md:hidden lg:block" /> lectus netus in.
-            Aliquet donec morbi convallis Aliquet donec Aliquet do{" "}
-            <br className="block md:hidden lg:block" /> pretium. Turpis tempus
-            pharetra
+            nibh lectus netus in. Aliquet donec morbi convallis Aliquet donec
+            Aliquet do pretium. Turpis tempus pharetra
           </p>
 
           <div className="mt-[22px]">
@@ -40,7 +38,7 @@ const Banner = () => {
           </div>
         </div>
         {/* images here */}
-        <div>
+        <div className="">
           <div>
             <div className="relative">
               <Image src={img} alt="Logo" width={538} height={617} />
