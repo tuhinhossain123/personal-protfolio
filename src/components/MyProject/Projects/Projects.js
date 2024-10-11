@@ -5,9 +5,15 @@ const Projects = ({ projects }) => {
   return (
     <div className="mt-[106px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11">
       {projects.map((project) => (
-        <div key={project.id} className="">
-          <div className="lg:w-[445px] lg:h-[489px] bg-[#FFEBDB] rounded-xl pl-7 pr-10">
-            <Image src={project?.img} alt="img" width={445} height={489} />
+        <div key={project.id} className="project-container">
+          <div className="image-container lg:w-[445px] lg:h-[489px] bg-[#FFEBDB] rounded-xl pl-7 pr-10">
+            <Image
+              src={project?.img}
+              alt="img"
+              width={445}
+              height={489}
+              className="project-image"
+            />
           </div>
           <h2 className="text-xl font-normal text-primary pt-9">
             {project?.name}
@@ -20,3 +26,4 @@ const Projects = ({ projects }) => {
 };
 
 export default Projects;
+

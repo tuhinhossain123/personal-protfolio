@@ -12,14 +12,14 @@ const Services = () => {
         lectus <br /> netus in. Aliquet donec morbi convallis pretium
       </p>
       <div className="pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9">
-        <div className="bg-[#F8F8F8]  pl-5 pt-14 pr-5 pb-3 rounded-lg">
+        <div className="bg-[#F8F8F8]  pl-5 pt-14 pr-5 pb-3 rounded-lg hover:bg-primary">
           <div className="h-[75px] w-[75px]">
             <Image
               src={img1}
               alt="Logo"
               width=""
               height=""
-              className="w-full h-full"
+              className="w-full h-full hover:filter: invert(1)"
             />
           </div>
           <h2 className="text-3xl font-poppins font-semibold pt-6 text-black">UI/UX</h2>

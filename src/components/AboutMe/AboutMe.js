@@ -2,8 +2,19 @@
 import Image from "next/image";
 import img from "../../app/images/Group 7.png";
 import img2 from "../../app/images/Rectangle 4.png";
+import "./about.css";
+import { useState } from "react";
 
 const AboutMe = () => {
+  const [sliderValues, setSliderValues] = useState([90, 80, 95, 90]); 
+
+  // Update the specific slider value based on index
+  const handleChange = (index) => (event) => {
+    const newValues = [...sliderValues];
+    newValues[index] = event.target.value; 
+    setSliderValues(newValues);
+  };
+
   return (
     <div
       id="1"
@@ -25,38 +36,66 @@ const AboutMe = () => {
             nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis
             tempus pharetra
           </p>
-          <div className="pt-4">
-            <div className="relative">
-              <h className="text-2xl font-poppins font-normal">UX</h>
-              <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
-                <h2 className="bg-primary h-3 w-[90%] rounded-l-xl  relative"></h2>
-              </div>
-              <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[8%]"></h2>
+          <div className="pt-4 space-y-6">
+            {/* UX Slider */}
+            <div className="slider-container">
+              <label className="text-2xl font-poppins font-normal">UX</label>
+              <input
+                type="range"
+                className="slider mt-4"
+                min="0"
+                max="100"
+                value={sliderValues[0]}
+                onChange={handleChange(0)} 
+                style={{
+                  "--slider-value": `${sliderValues[0]}%`,
+                }}
+              />
             </div>
-            <div className="relative pt-6">
-              <h className="text-2xl font-poppins font-normal">
-                Website Design
-              </h>
-              <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
-                <h2 className="bg-primary h-3 w-[80%] rounded-l-xl  relative"></h2>
-              </div>
-              <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[16%]"></h2>
+            {/* Web Design Slider */}
+            <div className="slider-container">
+              <label className="text-2xl font-poppins font-normal">Web Design</label>
+              <input
+                type="range"
+                className="slider mt-4"
+                min="0"
+                max="100"
+                value={sliderValues[1]}
+                onChange={handleChange(1)} 
+                style={{
+                  "--slider-value": `${sliderValues[1]}%`,
+                }}
+              />
             </div>
-            <div className="relative pt-6">
-              <h className="text-2xl font-poppins font-normal">App Design</h>
-              <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
-                <h2 className="bg-primary h-3 w-[92%] rounded-l-xl  relative"></h2>
-              </div>
-              <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[4%]"></h2>
+            {/* App Design Slider */}
+            <div className="slider-container">
+              <label className="text-2xl font-poppins font-normal">App Design</label>
+              <input
+                type="range"
+                className="slider mt-4"
+                min="0"
+                max="100"
+                value={sliderValues[2]}
+                onChange={handleChange(2)} 
+                style={{
+                  "--slider-value": `${sliderValues[2]}%`,
+                }}
+              />
             </div>
-            <div className="relative pt-6">
-              <h className="text-2xl font-poppins font-normal">
-                Graphic Desogn
-              </h>
-              <div className="bg-white w-[100%] flex rounded-xl mt-[18px]">
-                <h2 className="bg-primary h-3 w-[90%] rounded-l-xl  relative"></h2>
-              </div>
-              <h2 className="h-7 w-7 border-2 border-primary bg-white rounded-full absolute -bottom-[7px]  right-[8%]"></h2>
+            {/* Graphic Design Slider */}
+            <div className="slider-container">
+              <label className="text-2xl font-poppins font-normal">Graphic Design</label>
+              <input
+                type="range"
+                className="slider mt-4"
+                min="0"
+                max="100"
+                value={sliderValues[3]}
+                onChange={handleChange(3)} 
+                style={{
+                  "--slider-value": `${sliderValues[3]}%`,
+                }}
+              />
             </div>
           </div>
         </div>
