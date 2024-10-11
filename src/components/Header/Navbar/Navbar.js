@@ -6,13 +6,15 @@ import { RxCross2 } from "react-icons/rx";
 import img from "../../../app/images/Subtract.png";
 import Link from "next/link";
 
+
+
 const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
     <div className="max-w-[1420px] mx-auto top-0 z-10 bg-[#1E1E1E] left-0">
       <div className="md:flex items-center justify-between py-4  lg:py-[61px] px-7 md:px-10 lg:px-4">
-        <Link href="#2" className="cursor-pointer flex items-center gap-5">
+        <Link href="#1" className="cursor-pointer flex items-center gap-5">
           <div>
             <Image src={img} alt="Logo" width={67} height={67} />
           </div>
@@ -39,7 +41,7 @@ const Navbar = () => {
           >
             <li className="mb-8 lg:mb-0">
               <Link
-                href="#2"
+                href="#1"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -49,16 +51,16 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="mb-8 lg:mb-0">
+            <li>
               <Link
-                href="#1"
+                href="#2"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 className="text-xl md:text-3xl lg:text-xl font-poppins font-normal  hover:text-[#FD6F00]  duration-500 cursor-pointer"
               >
-                About Me
+                About
               </Link>
             </li>
             <li className="mb-8 lg:mb-0">

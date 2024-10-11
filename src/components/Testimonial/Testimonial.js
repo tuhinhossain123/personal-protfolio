@@ -81,7 +81,7 @@ const Testimonial = () => {
   }, [currentSlide]);
 
   return (
-    <div className="mt-16 lg:mt-[139px] px-4 md:px-6 lg:px-6 overflow-hidden rounded-xl">
+    <div id="5" className="mt-16 lg:mt-[139px] px-4 md:px-6 lg:px-6 overflow-hidden rounded-xl">
       <div className="pb-[72px]">
         <h2 className="text-5xl md:text-[66px] font-poppins font-semibold lg:text-center pb-4">
           Testimonials
@@ -106,7 +106,7 @@ const Testimonial = () => {
             className="w-full flex-shrink-0 flex justify-center items-center gap-10"
             style={{ width: `${100 / slidesWithClones.length}%` }} 
           >
-            <div className="bg-[#F8F8F8] pl-[59px] pt-[68px] pr-[77px] pb-10 flex flex-col lg:flex-row items-center gap-7 lg:gap-5 rounded-xl">
+            <div className="bg-[#F8F8F8] pl-[59px] pt-[68px] pr-[77px] pb-10 flex  lg:flex-row items-center gap-7 lg:gap-5 rounded-xl">
               <div>
                 <Image src={slide?.img} alt="Logo" width={235} height={235} />
               </div>

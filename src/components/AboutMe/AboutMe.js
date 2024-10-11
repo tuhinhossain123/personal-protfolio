@@ -6,18 +6,18 @@ import "./about.css";
 import { useState } from "react";
 
 const AboutMe = () => {
-  const [sliderValues, setSliderValues] = useState([90, 80, 95, 90]); 
+  const [sliderValues, setSliderValues] = useState([90, 80, 95, 90]);
 
   // Update the specific slider value based on index
   const handleChange = (index) => (event) => {
     const newValues = [...sliderValues];
-    newValues[index] = event.target.value; 
+    newValues[index] = event.target.value;
     setSliderValues(newValues);
   };
 
   return (
     <div
-      id="1"
+      id="2"
       className="mt-[69px] px-4 md:px-6 lg:px-6 max-w-[1420px] mx-auto"
     >
       <div className="flex flex-col lg:flex-row lg:gap-12">
@@ -46,7 +46,7 @@ const AboutMe = () => {
                 min="0"
                 max="100"
                 value={sliderValues[0]}
-                onChange={handleChange(0)} 
+                onChange={handleChange(0)}
                 style={{
                   "--slider-value": `${sliderValues[0]}%`,
                 }}
@@ -54,14 +54,16 @@ const AboutMe = () => {
             </div>
             {/* Web Design Slider */}
             <div className="slider-container">
-              <label className="text-2xl font-poppins font-normal">Web Design</label>
+              <label className="text-2xl font-poppins font-normal">
+                Web Design
+              </label>
               <input
                 type="range"
                 className="slider mt-4"
                 min="0"
                 max="100"
                 value={sliderValues[1]}
-                onChange={handleChange(1)} 
+                onChange={handleChange(1)}
                 style={{
                   "--slider-value": `${sliderValues[1]}%`,
                 }}
@@ -69,14 +71,16 @@ const AboutMe = () => {
             </div>
             {/* App Design Slider */}
             <div className="slider-container">
-              <label className="text-2xl font-poppins font-normal">App Design</label>
+              <label className="text-2xl font-poppins font-normal">
+                App Design
+              </label>
               <input
                 type="range"
                 className="slider mt-4"
                 min="0"
                 max="100"
                 value={sliderValues[2]}
-                onChange={handleChange(2)} 
+                onChange={handleChange(2)}
                 style={{
                   "--slider-value": `${sliderValues[2]}%`,
                 }}
@@ -84,14 +88,16 @@ const AboutMe = () => {
             </div>
             {/* Graphic Design Slider */}
             <div className="slider-container">
-              <label className="text-2xl font-poppins font-normal">Graphic Design</label>
+              <label className="text-2xl font-poppins font-normal">
+                Graphic Design
+              </label>
               <input
                 type="range"
                 className="slider mt-4"
                 min="0"
                 max="100"
                 value={sliderValues[3]}
-                onChange={handleChange(3)} 
+                onChange={handleChange(3)}
                 style={{
                   "--slider-value": `${sliderValues[3]}%`,
                 }}

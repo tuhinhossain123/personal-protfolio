@@ -1,0 +1,7 @@
+.line-clamp {
+    display: -webkit-box; /* Use a flexbox */
+    -webkit-box-orient: vertical; /* Define the box orientation */
+    -webkit-line-clamp: 5; /* Limit to 5 lines */
+    overflow: hidden; /* Hide the overflow */
+  }
+  
