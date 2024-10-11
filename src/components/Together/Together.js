@@ -14,7 +14,7 @@ const Together = () => {
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="w-full pl-6 text-xl font-normal outline-none border-2 focus:border-primary py-5 rounded-xl"
+              className="w-full pl-6 text-xl font-normal text-black outline-none border-2 focus:border-primary py-5 rounded-xl"
             />
           </div>
           <button className="bg-primary text-white text-2xl md:text-lg lg:text-2xl font-poppins font-semibold py-5 px-4 lg:px-9 rounded-xl">
