@@ -31,8 +31,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[000000]">
+    <html  lang="en" className="bg-[000000]">
       <body
+      style={{scrollBehavior:'smooth'}}
         className={`${montsrrat.variable} ${poppins.variable} antialiased bg-[#1E1E1E] text-white`}
       >
         <div>
