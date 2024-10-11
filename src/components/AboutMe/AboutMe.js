@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="flex flex-col lg:flex-row lg:gap-12">
         <div className="relative">
           <Image src={img} alt="Logo" width={681} height={407} />
-          <div className="absolute top-[10%] md:top-[21%] lg:top-[15%] left-1 md:left-[21%] lg:left-[18%]">
+          <div className="absolute top-[10%] md:top-[21%] lg:top-[15%] left-1 md:left-[21%] lg:left-[19%]">
             <Image src={img2} alt="Logo" width={374} height={83} />
           </div>
         </div>

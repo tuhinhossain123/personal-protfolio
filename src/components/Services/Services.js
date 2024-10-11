@@ -12,7 +12,7 @@ const Services = () => {
         lectus <br /> netus in. Aliquet donec morbi convallis pretium
       </p>
       <div className="pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9">
-        <div className="bg-[#F8F8F8] pl-5 pt-14 pr-5 pb-3 rounded-lg">
+        <div className="bg-[#F8F8F8]  pl-5 pt-14 pr-5 pb-3 rounded-lg">
           <div className="h-[75px] w-[75px]">
             <Image
               src={img1}

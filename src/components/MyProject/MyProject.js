@@ -39,35 +39,35 @@ const MyProject = () => {
             <TabList className="flex flex-col lg:flex-row items-center justify-center lg:space-x-4 space-y-5 lg:space-y-0 cursor-pointer text-[24px] font-poppins font-normal text-[#000] pt-5 lg:pt-0">
               <Tab
                 className={
-                  "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
+                  "menuItem bg-[#F8F8F8] hover:bg-primary focus:bg-primary hover:text-white focus:text-white text-2xl rounded focus:rounded py-[10px] px-5"
                 }
               >
                 All
               </Tab>
               <Tab
                 className={
-                  "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
+                  "menuItem bg-[#F8F8F8] hover:bg-primary focus:bg-primary hover:text-white focus:text-white text-2xl rounded focus:rounded py-[10px] px-5"
                 }
               >
                 UI/UX
               </Tab>
               <Tab
                 className={
-                  "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
+                  "menuItem bg-[#F8F8F8] hover:bg-primary focus:bg-primary hover:text-white focus:text-white text-2xl rounded focus:rounded py-[10px] px-5"
                 }
               >
                 Web Design
               </Tab>
               <Tab
                 className={
-                  "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
+                  "menuItem bg-[#F8F8F8] hover:bg-primary focus:bg-primary hover:text-white focus:text-white text-2xl rounded focus:rounded py-[10px] px-5"
                 }
               >
                 App Design
               </Tab>
               <Tab
                 className={
-                  "menuItem bg-[#F8F8F8] focus:bg-primary focus:text-white text-2xl rounded py-[10px] px-5"
+                  "menuItem bg-[#F8F8F8]  hover:bg-primary focus:bg-primary hover:text-white focus:text-white text-2xl rounded focus:rounded py-[10px] px-5"
                 }
               >
                 Graphic Design
