@@ -82,16 +82,16 @@ const Footer = () => {
           {/* all icons here */}
           <div className="flex justify-center items-center gap-6 md:gap-16 lg:gap-6 pt-10 lg:pt-20">
             <Link href="">
-              <MdOutlineFacebook className="text-[32px] md:text-5xl lg:text-[32px]" />
+              <MdOutlineFacebook className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary" />
             </Link>
             <Link href="">
-              <FaTwitter className="text-[32px] md:text-5xl lg:text-[32px]" />
+              <FaTwitter className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary" />
             </Link>
             <Link href="">
-              <RxInstagramLogo className="text-[32px] md:text-5xl lg:text-[32px]" />
+              <RxInstagramLogo className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary" />
             </Link>
             <Link href="">
-              <FaLinkedin className="text-[32px] md:text-5xl lg:text-[32px]" />
+              <FaLinkedin className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary" />
             </Link>
           </div>
         </div>

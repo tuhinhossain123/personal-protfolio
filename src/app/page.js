@@ -15,6 +15,7 @@ export default function Home() {
       <MyProject></MyProject>
       <Testimonial></Testimonial>
       <Together></Together>
+      
     </div>
   );
 }
