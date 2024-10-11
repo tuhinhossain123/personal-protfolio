@@ -47,17 +47,17 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex justify-center items-center gap-6 md:gap-16 lg:gap-6 pt-9">
-              <Link href="">
-                <MdOutlineFacebook className="text-[32px] md:text-5xl lg:text-[32px]"></MdOutlineFacebook>
+              <Link href="" className="">
+                <MdOutlineFacebook className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary"></MdOutlineFacebook>
               </Link>
               <Link href="">
-                <FaTwitter className="text-[32px] md:text-5xl lg:text-[32px]"></FaTwitter>
+                <FaTwitter className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary"></FaTwitter>
               </Link>
               <Link href="">
-                <RxInstagramLogo className="text-[32px] md:text-5xl lg:text-[32px]"></RxInstagramLogo>
+                <RxInstagramLogo className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary"></RxInstagramLogo>
               </Link>
               <Link href="">
-                <FaLinkedin className="text-[32px] md:text-5xl lg:text-[32px]"></FaLinkedin>
+                <FaLinkedin className="text-[32px] md:text-5xl lg:text-[32px] hover:-translate-y-1 duration-300 hover:text-primary"></FaLinkedin>
               </Link>
             </div>
           </div>
